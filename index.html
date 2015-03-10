@@ -46,7 +46,11 @@
    <script type="text/javascript">
    var first = "cole.hudson";
    var last = "live.com";
-   document.write('<a href="mailto:'+first + '@' + last+'">'+first + '@' + last+'<\/a>');
+   var form = "https://formspree.io/"+first+'@'+last;
+   $('.submit').click(function() {
+   	console.log(form);
+   	// $('#contact_form').attr('action', form);	
+   });
    </script>
 
 
@@ -232,7 +236,7 @@
                     <p>Hi, I'm Cole, and I build things.  I focus on back-end web development.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Python, PHP, bash, JavaScript, jQuery, git, flask, Solr, Fedora Commons - these are a few of the tools I work with most every day.</p>
+                    <p>Python, PHP, flask, Solr - these are a few of the tools I work with most every day.</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="assets/current_CV_web.pdf" class="btn btn-lg btn-outline">
@@ -252,7 +256,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <form role="form" method="post" action="https://formspree.io/cole.hudson@live.com">
+                    <form id="contact_form" role="form" method="post" action="">
                         <input type="hidden" name="_subject" value="colehudson.org Form Submission" style="display:none" />
                         <input type="text" name="_gotcha" style="display:none" />
                         <div class="row">
