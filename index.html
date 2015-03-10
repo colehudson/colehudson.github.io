@@ -43,6 +43,14 @@
    </script>
 
 
+   <script type="text/javascript">
+   var first = "cole.hudson";
+   var last = "live.com";
+   document.write('<a href="mailto:'+first + '@' + last+'">'+first + '@' + last+'<\/a>');
+   </script>
+
+
+
     <!-- 
     You need to include this script on any page that has a Google Map.
     When using Google Maps on your own site you MUST signup for your own API key at:
@@ -244,12 +252,6 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-
-                    <!-- <form action="//formspree.io/you@email.com">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
-</form> -->
                     <form role="form" method="post" action="https://formspree.io/cole.hudson@live.com">
                         <input type="hidden" name="_subject" value="colehudson.org Form Submission" style="display:none" />
                         <input type="text" name="_gotcha" style="display:none" />
@@ -374,7 +376,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Book Shelf Viewer</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/sv.jpg" class="img-responsive img-centered" alt="">
                             <p>Using a book shelf display <a href="https://github.com/harvard-lil/stackview">interface</a> developed by Harvard Library Innovation Labs, I built a connector into Wayne State University Libraries' catalog that displayed library books as they appeared on the physical bookshelf.  This backend connector worked over the Z39.50 protocol, transforming MARC records into json data. Also, each record, when displayed, queries against the Google Books and Open Library APIs to find available physical or digital copies.</p>
@@ -405,7 +407,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Ref Stats</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/ref_stats.jpg" class="img-responsive img-centered" alt="">
                             <p>Along with my colleague, <a href="http://grahamhukill.com">Graham Hukill</a>, I built a statistics tracker for the Wayne State University Libraries' reference department. Built upon PHP, jQuery, bootstrap, and a MySQL backend, it allows for quick entering, editing, and vizualizing of activity at campus reference desks.</p>
