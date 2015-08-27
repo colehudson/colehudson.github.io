@@ -187,7 +187,7 @@
                     </a>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <h3>Need To See More?</h3>
+                    <h3>Want To See More?</h3>
                     <p><h3><a href="https://github.com/colehudson">GitHub</a></h3></p>
                 </div>
 <!--                 <div class="col-sm-4 portfolio-item">
@@ -237,7 +237,7 @@
                     <p>Hi, I'm Cole, and I build things.  I focus on back-end web development.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Python, PHP, flask, Solr - these are a few of the tools I work with most every day.</p>
+                    <p>Python, PHP, Solr - these are a few of the tools I work with most every day.</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="assets/current_CV_web.pdf" class="btn btn-lg btn-outline">
@@ -319,7 +319,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; 2014 - Cole Hudson
+                        Copyright &copy; <div id="date"></div> - Cole Hudson
+
+                         <script type="text/javascript">
+                         $('div#date').html(function() { 
+                           date = new Date().getFullYear();
+                           return date;
+                           });
+                         </script>
+
 			<br/>(Theme courtesy of <a href="http://startbootstrap.com">Start Bootstrap</a> | Map from <a href="http://snazzymaps.com/">Snazzy Maps</a>)
                     </div>
                 </div>
