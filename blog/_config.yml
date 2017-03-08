@@ -3,8 +3,8 @@ title:       Blog
 email:       cole.hudson@live.com
 author:      Cole Hudson
 description: "My Blog"
-baseurl:     ""
-url:         "http://colehudson.org"
+baseurl:     "/blog"
+url:         "https://colehudson.org"
 date_format: "%b %-d, %Y"
 
 # Google services
