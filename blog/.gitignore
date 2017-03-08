@@ -4,7 +4,6 @@
 .DS_Store
 .analysis
 .bundle/
-.byebug_history
 .jekyll-metadata
 .ruby-gemset
 .ruby-version
@@ -14,3 +13,4 @@ Gemfile.lock
 _site/
 tmp/*
 Rakefile
+CNAME
